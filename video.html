@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .video-container {
+            position: fixed;
+            z-index: -100;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            /*overflow: hidden;*/
+        }
+        .video-container video{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+        }        
+    </style>
+</head>
+<body>      
+    <div class="video-container ">   
+        <video src="video/prueba.mp4" autoplay loop muted poster="" class="vw-100 vh-100">
+        </video>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>  
+    <div class="container-fluit">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+                <p class="display-1 text-white">HOLA...</p>
+            </div>
+            <div class="col-md-4">                
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Mynerve';
+    src: url("Mynerve/Mynerve-Regular.ttf") format('truetype');   
+   
+ }
+@font-face {
+    font-family: 'Anton';
+    src: url("Anton/Anton-Regular.ttf") format('truetype');   
+    
+ }
+  
+  @font-face {
+    font-family: 'Lato';
+    src: url("Lato/Lato-Italic.ttf") format('truetype');  
+         
+  }  
+  @font-face {
+    font-family: 'Roboto';
+    src: url("Roboto/Roboto-Black.ttf") format('truetype');   
+        
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url("Open_Sans/static/OpenSans_Condensed/OpenSans_Condensed-SemiBoldItalic.ttf") format('truetype');         
+  }
+  .contenidos {font-family: 'OpenSans';}
+  .titulos {font-family: 'Anton'; }
+  .titulos1 {font-family: 'Mynerve'; }
+  .subtitulos {font-family: 'Roboto', sans-serif; }

@@ -1,0 +1,32 @@
+.card:hover{
+	transform: scale(1.05);
+	transition: 1s all;
+}
+html {
+scroll-behavior: smooth;
+}
+.navmenu1{
+	position: sticky;
+	top: 0;
+}
+body  {
+background: url(img/amanecer.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+margin: 100%vh;
+}
+.navbar1 {
+	background-color: blue;
+	position: sticky;
+	top: 0;
+}
+img {
+	height: 100vh;
+	width: 100vw;
+}
+.contenedor-cuerpo {
+	background-color: primary;
+}
+
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html data-bs-spy="scroll" data-bs-smooth-scroll="true">
+<meta charset="utf-8">
+  <head>    
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">	
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>    
+    <!-- Custom styles for this template -->
+    <!-- <link href="form-validation.css" rel="stylesheet"> -->
+  </head>
+  <body class="bg-light">  
+    <header>
+      <div class="container-fluit d-flex justify-content-center px-3 py-2 bg-black sticky-top">	
+        <div class="px-4 btn-dark contenidos">
+        <a class="text-decoration-none text-white" href="index.html">	
+          <i class="bi bi-house-door text-white">Inicio</i>
+        </a>
+      </div>
+        <div class="px-4 btn-dark contenidos"><a class="text-decoration-none text-white" href="#quienessomos">Quienes Somos</a></div>
+        <div class="px-4 btn-dark contenidos"><a class="text-decoration-none text-white" href="#lineasaccion">Lineas de Accion</a></div>
+        <div class="px-4 btn-dark contenidos"><a class="text-decoration-none text-white" href="#servicios">Nuestros Servicios</a></div>
+        <div class="px-4 btn-dark contenidos"><a class="text-decoration-none text-white" href="#contactenos">Contactenos</a></div>
+      </div>	
+      <div class="container-fluit d-flex justify-content-between px-3 bg-warning sticky-top">		 
+        <img class="py-2" src="img/logo01.png" style="width: 7%; height: 7%;">
+        <div class="titulos1 text-primary display-6 pt-4">Despertar Social</div>
+        <div class="row">
+        <div class="col-md-10"></div>
+          <div class="d-flex justify-content-end" flex-row-reverse>
+            <div class="px-1"><a href="facebook.com/"><i class="bi bi-facebook h3 text-light " alt="Facebook"></i></a></div>
+            <div class="px-1"><a href="twitter.com"><i class="bi bi-twitter h3 text-success" alt="Twitter"></i></a></div>
+            <div class="px-1"><a href="instagram.com"><i class="bi bi-instagram h3 text-primary" alt="Instagram"></i></a></div>
+            <div class="px-1"><a href="youtube.com"><i class="bi bi-youtube h3 text-danger" alt="Youtube"></i></a></div>
+          </div>
+        </div>
+      </div>	
+      
+  </header>  
+<div class="container py-5">
+  <main>    
+    <div class="row">
+      <div class="col-md-5">
+      	<div class="container border py-3 shadow mb-5 bg-body rounded">
+          <div class="row">
+            <div class="col-md-2"></div><div class="col-md-2">Siguenos</div><div class="col-md-6">
+              <div class="d-flex justify-content-end" flex-row-reverse>
+                <div class="px-1"><a href="facebook.com"><i class="bi bi-facebook h3 text-warning" alt="Facebook"></i></a></div>
+                <div class="px-1"><a href="twitter.com"><i class="bi bi-twitter h3 text-success" alt="Twitter"></i></a></div>
+                <div class="px-1"><a href="instagram.com"><i class="bi bi-instagram h3 text-primary" alt="Instagram"></i></a></div>
+                <div class="px-1"><a href="youtube.com"><i class="bi bi-youtube h3 text-danger" alt="Youtube"></i></a></div>
+              </div>
+            </div>
+            <div class="col-md-3"></div><div class="col-md-1"><i class="bi bi-mailbox h3"></i></div><div class="col-md-6">fundacion@despertarsocial.org</div>
+            <div class="col-md-3"></div><div class="col-md-1"><i class="bi bi-telephone h3"></i></div><div class="col-md-6">+57 3152858236</div>
+            <div class="col-md-3"></div><div class="col-md-1"><i class="bi bi-list-columns h3"></i></div><div class="col-md-6">www.fundaciondespertarsocial.org</div>         
+            <div class="col-md-3"></div><div class="col-md-1"><i class="bi bi-buildings h3"></i></div><div class="col-md-6">Av. 4 Sur 7-22</div>        
+          </div>
+          <div class="col-md-12 my-5">            
+              <img src="img/barrioindependencia1.png" class="w-100">           
+          </div>
+        </div>              
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5 border py-3 shadow mb-5 bg-body rounded">
+        <h4 class="mb-3 text-center">Informacion de Contacto</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="" value="">
+              <div class="invalid-feedback">
+                Provea un nombre valido.
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <label for="apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" placeholder="" value="">
+              <div class="invalid-feedback">                .
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label">Correo Electronico <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Provea un correo electronico valido.
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="tipoSolicitud" class="form-label">Tipo Solicitud</label>
+              <select class="form-select" id="tipoSolicitud" required>
+                <option value="">Seleccione...</option>
+                <option value="queja">Queja</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="Solicitud">Solicitud</option>
+              </select>
+              <div class="invalid-feedback">
+             	Seleccione un pais valido.
+              </div>              
+            </div>            
+            <div class="col-12">
+              <label for="descSolicitud" class="form-label">Escriba su solicitud</label>
+              <input type="text" class="form-control" id="descSolicitud" required>
+              <div class="invalid-feedback">
+                Provea una solicitud.
+              </div>
+            </div>      
+            <div class="col-md-5">
+              <label for="pais" class="form-label">Pais</label>
+              <select class="form-select" id="pais" required>
+                <option value="">Seleccione...</option>
+                <option>Colombia</option>
+              </select>
+              <div class="invalid-feedback">
+             	Seleccione un pais valido.
+              </div>
+            </div>
+            <div class="col-md-4">
+             <label for="estado" class="form-label">Departamento</label>
+              <select class="form-select" id="estado" required>
+                <option value="">Seleccione...</option>
+                <option value="valledelcauca">Valle del Cauca</option>
+              </select>
+              <div class="invalid-feedback">
+	                Provea una direccion de correo valida .
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Codigo</label>
+              <input type="text" class="form-control" id="zip" placeholder="764501">
+              <div class="invalid-feedback">
+                Provea codigo valido.
+              </div>
+            </div>
+          </div>
+          <hr class="my-4">  
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>  
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="form-validation.js"></script>
+  </body>
+  <footer>
+    <div class="container-fluit bg-dark bg-opacity-10 mt-5 py-5">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-center py-5">
+          <img src="img/logoGris.jpg" class="w-75">
+        </div>			
+        <div class="col-md-2 py-5">
+          <div class="fs-5 mb-1"><b><i>Inicio</i></b></div>
+          <div class="fs-6">
+              <div></div>
+              <div></div>
+              <div></div>				
+          </div>
+        </div>
+        <div class="col-md-2 py-5">
+          <div class="fs-5 mb-1"><b><i>Quiénes somos</i></b></div>
+          <div class="fs-6">
+              <div>Nosotros</div>
+              <div>Mision</div>
+              <div>Vision</div>
+              <div>Valores</div>				
+          </div>
+        </div>
+        <div class="col-md-2 py-5">
+          <div class="fs-5 mb-1"><b><i>La Fundación</i></b></div>
+          <div class="fs-6">
+              <div>Fortalecimiento</div>
+              <div>Gestion</div>
+              <div>Educación</div>				
+          </div>
+        </div>
+        <div class="col-md-2 py-5">
+          <div class="fs-5 mb-1"><b><i>Contactenos</i></b></div>
+            <div class="fs-6">
+              <div>Av. 4 Sur 7-22</div>
+              <div>fundacion@despertarsocial.org</div>
+              <div>+57 3152858236</div>
+              <div>www.fundaciondespertarsocial.org</div>				
+            </div>  
+        </div>
+        <div class="col-md-1">      	
+        </div>
+      </div>			
+    </div>
+  </footer>
+</html>
